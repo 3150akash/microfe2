@@ -9,7 +9,7 @@ const App = () => {
     <div className="App">
       <Suspense fallback={<div>Loading...</div>}>
         <Header />
-        {/* <BodyPlaceholder />*/}
+        <BodyPlaceholder />
         <Footer />  
       </Suspense>
     </div>
