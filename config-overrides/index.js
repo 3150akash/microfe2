@@ -10,7 +10,7 @@ module.exports = override((config) => {
       name: "microfe2",
       filename: "remoteEntry.js",
       remotes: {
-        "microfe1": "microfe1@http://localhost:8080/remoteEntry.js",
+        "microfe1": "microfe1@http://localhost:8081/remoteEntry.js",
       },
       exposes: {
        
